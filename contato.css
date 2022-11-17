@@ -1,0 +1,160 @@
+header {
+    background: #000000;
+    padding: 15px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 1120px;
+    margin: 0 auto;    
+}
+
+.foto {
+    width: 380px;
+    height: 210px;
+}
+
+nav {    
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px; 
+}
+
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.contatos {
+    background: url("imagens/cimento1.jpg");
+    padding: 10px;
+}
+
+.atendentes {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 8px;
+}
+
+h4 {
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+    margin: 8px;
+}
+
+.lista {
+    font-style: italic;
+    font-size: larger;
+}
+
+ul .lista {
+    vertical-align: top;    
+    margin: 15px;
+}
+
+.whats {
+    display: inline-block;
+    position: 80px;
+    margin-left: 20px;
+    background-color: #34af23;
+    border-radius: 20px;
+}
+
+i {
+    color: white;
+}
+
+.whats :hover {
+    font-size: 25px;
+}
+
+.contatos img {
+    display: inline-block;
+    width: 100px;
+    height: 80px;
+    margin-left: 1202px;
+    margin-top: -80px;
+}
+
+.end {
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 900px;
+}
+
+.func a {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(7, 7, 7);
+}
+
+.func a:hover {
+    color: #f7f7f7;
+    text-decoration: underline;
+}
+
+#imagem {
+    
+}
+
+.caixaDialogo {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+textarea {
+    margin: -2px;
+}
+
+.experi img {
+    width: 140px;
+    height: 140px;
+}
+
+.experi main {
+    margin: 10px 315px;
+    display: inline-block;
+}
+
+.botao {
+    vertical-align: text-bottom;
+}
+
+.experi h1 {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: -140px;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    padding: 20px 0;
+}
+
+footer p {
+    color: white;
+    font-size: 13px;
+    padding-top: 10px;
+}

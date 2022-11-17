@@ -1,0 +1,74 @@
+#imagem { /* aqui marcamos um identidicador 'id' usando # */
+    width: 100%; /* largura */
+    height: 380px; /* altura */
+    
+}
+
+.principal { /* aqui marcamos uma classe usando o . */
+    background: #CCCCCC; /* background, cor de fundo da tela, no caso pegando a tela toda porque esta dentro do body(corpo) */
+    padding: 30px; /* preencimento */
+}
+
+h1 { /* aqui marcamos uma tag usando exatamente a mesam tag do html */
+    display: inline-block;
+    padding: 5px;
+    margin-left: 20px; /* margem esquerda */
+}
+
+nav {    
+    position: absolute;
+    padding-left: 880px;
+    margin-top: -72px;
+}
+
+nav li {    
+    display: inline;
+    margin: 0 0 0 15px; 
+}
+
+nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(12, 12, 12);
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+p {
+    text-align: center; /* alinhamento de texto */
+}
+
+em strong { /* aqui marcamos a frase que esta em negrito, que esta dentro de 'em' enfase */
+    color: red;  /* aqui como queriamos mudar somente uma unica frase, definimos somente a frase que esta dentro de strong que esta dentro da enfase (em), assim conseguimos definir em qual propriedade aplicar a cor desejada */
+}
+
+.lista {
+    font-style: italic; /* estilo da fonte */
+    font-size: larger; /* tamanho da fonte */
+}
+
+.divisoria {
+    background: white; /* fundo */
+    padding: 20px; 
+
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+ul {
+    display: inline-block; /* exebição: inline seria exebição em linha, não podendo colocar nada na frente da exebição - block seria por quadra. inlilne-block: bloco de linha, podendo colocar imagem ou textos na frente da exebição */
+    vertical-align: top; /* alinhamento vertical */
+}
+
+#leon {
+    width: 45%;
+    height: 350px;
+    margin-left: 10%
+}
